@@ -1,0 +1,176 @@
+{
+  "name": "Ground Pinch Training Pack",
+  "description": "Master the ground pinch technique with progressive difficulty levels",
+  "author": "1014kayden-design",
+  "version": "1.0.0",
+  "training_packs": [
+    {
+      "id": "ground_pinch_beginner",
+      "name": "Ground Pinch - Beginner",
+      "description": "Learn the basics of ground pinch mechanics",
+      "difficulty": 1,
+      "scenarios": [
+        {
+          "scenario_id": 1,
+          "name": "Ball Setup",
+          "description": "Position ball for ground pinch attempt",
+          "ball_setup": {
+            "position": [0, 0, 93],
+            "velocity": [0, 0, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -256, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 0, 0]
+          },
+          "objective": "Drive into the ball to initiate ground pinch"
+        },
+        {
+          "scenario_id": 2,
+          "name": "First Touch Pinch",
+          "description": "Execute first ground pinch contact",
+          "ball_setup": {
+            "position": [0, -100, 93],
+            "velocity": [0, 500, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [-50, -256, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Hit the ball towards goal using ground pinch"
+        },
+        {
+          "scenario_id": 3,
+          "name": "Goal Attempt",
+          "description": "Complete a ground pinch goal",
+          "ball_setup": {
+            "position": [0, -150, 93],
+            "velocity": [0, 600, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -300, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Score a goal using ground pinch technique"
+        }
+      ]
+    },
+    {
+      "id": "ground_pinch_intermediate",
+      "name": "Ground Pinch - Intermediate",
+      "description": "Develop consistency with ground pinch mechanics",
+      "difficulty": 2,
+      "scenarios": [
+        {
+          "scenario_id": 4,
+          "name": "Angled Approach",
+          "description": "Execute ground pinch from different angles",
+          "ball_setup": {
+            "position": [200, -50, 93],
+            "velocity": [0, 0, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [-100, -256, 17],
+            "rotation": [0, 0.3, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Hit ball from angle using ground pinch"
+        },
+        {
+          "scenario_id": 5,
+          "name": "Speed Control",
+          "description": "Adjust power of ground pinch",
+          "ball_setup": {
+            "position": [0, -100, 93],
+            "velocity": [0, 800, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -300, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Control ball speed with ground pinch"
+        },
+        {
+          "scenario_id": 6,
+          "name": "Under Pressure",
+          "description": "Ground pinch with defender approaching",
+          "ball_setup": {
+            "position": [0, -120, 93],
+            "velocity": [0, 500, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -250, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Complete ground pinch before defender reaches"
+        }
+      ]
+    },
+    {
+      "id": "ground_pinch_advanced",
+      "name": "Ground Pinch - Advanced",
+      "description": "Master advanced ground pinch techniques",
+      "difficulty": 3,
+      "scenarios": [
+        {
+          "scenario_id": 7,
+          "name": "Double Tap Pinch",
+          "description": "Execute consecutive ground pinch contacts",
+          "ball_setup": {
+            "position": [0, -100, 93],
+            "velocity": [0, 400, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -300, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 1410, 0]
+          },
+          "objective": "Hit ball twice with ground pinch technique"
+        },
+        {
+          "scenario_id": 8,
+          "name": "Mid-Air Adjustment",
+          "description": "Reposition for optimal pinch angle",
+          "ball_setup": {
+            "position": [150, -80, 120],
+            "velocity": [-200, 300, -100],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -200, 17],
+            "rotation": [0, 0.5, 0],
+            "velocity": [400, 1410, 0]
+          },
+          "objective": "Adjust position and execute ground pinch"
+        },
+        {
+          "scenario_id": 9,
+          "name": "High Speed Pinch",
+          "description": "Ground pinch at maximum speed",
+          "ball_setup": {
+            "position": [0, -150, 93],
+            "velocity": [0, 1000, 0],
+            "angular_velocity": [0, 0, 0]
+          },
+          "player_setup": {
+            "position": [0, -350, 17],
+            "rotation": [0, 0, 0],
+            "velocity": [0, 2300, 0]
+          },
+          "objective": "Execute precise ground pinch at high speed"
+        }
+      ]
+    }
+  ]
+}
